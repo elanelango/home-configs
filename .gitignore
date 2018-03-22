@@ -1,3 +1,3 @@
-# Ignore add files to avoid noise of untracked files in home dir.
+# Ignore all files to avoid noise of untracked files in home dir.
 # Remember to do git add -f to add any new files.
 *
