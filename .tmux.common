@@ -1,0 +1,14 @@
+# Use 256 colors
+set -g default-terminal "screen-256color"
+
+set -g default-shell "/bin/zsh"
+
+# Needed to display the cursor in emacs inside a nested tmux session
+set -ag terminal-overrides ',screen*:cvvis=\E[34l\E[?25h'
+
+set-option -g history-limit 30000
+
+# Bind window rename to capital A. Like screen.
+bind A command-prompt "rename-window '%%'"
+unbind ,
+
