@@ -3,6 +3,9 @@
 
 export PATH=$PATH:/opt/local/bin:/opt/local/sbin:$HOME/.cargo/bin
 
+export VISUAL=nvim
+export EDITOR=nvim
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
