@@ -392,3 +392,12 @@ key_bindings:
   - { key: F10,      mods: Command, chars: "\x1b[21;3~"                  }
   - { key: F11,      mods: Command, chars: "\x1b[23;3~"                  }
   - { key: F12,      mods: Command, chars: "\x1b[24;3~"                  }
+
+
+# Custom bindings
+# Option+b = Move back one word
+  - { key: B,        mods: Alt,     chars: "\x1bb"                       }
+
+# Option+f = Move forward one word
+  - { key: F,        mods: Alt,     chars: "\x1bf"                       }
+
