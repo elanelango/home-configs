@@ -3,17 +3,22 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#3F3F3F" "#CC9393" "#7F9F7F" "#F0DFAF" "#8CD0D3" "#DC8CC3" "#93E0E3" "#DCDCCC"])
  '(custom-enabled-themes (quote (zenburn)))
  '(custom-safe-themes
    (quote
-    ("420459d6eeb45aadf5db5fbcc3d6990b65141c104911f7359454fc29fa9d87a0" "283ec00760b8fedc4add974c22846dda6235d5fbce59c9446940686bf0ebe5b4" "03ea866815fe82c4736611acafef3c90519d15cd3d465d8f146ebfa3a293b663" "e4e97731f52a5237f37ceb2423cb327778c7d3af7dc831788473d4a76bcc9760" default)))
+    ("190a9882bef28d7e944aa610aa68fe1ee34ecea6127239178c7ac848754992df" default)))
  '(fci-rule-color "#383838")
  '(menu-bar-mode nil)
  '(mu4e-change-filenames-when-moving t)
  '(mu4e-view-prefer-html t)
  '(mu4e-view-show-images t)
+ '(package-selected-packages
+   (quote
+    (zenburn-theme highlight-indentation elscreen multi-term yaml-mode flycheck yasnippet auto-complete)))
  '(tool-bar-mode nil)
  '(tramp-terminal-type "dumb")
  '(vc-annotate-background "#2B2B2B")

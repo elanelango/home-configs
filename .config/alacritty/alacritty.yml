@@ -401,3 +401,5 @@ key_bindings:
 # Option+f = Move forward one word
   - { key: F,        mods: Alt,     chars: "\x1bf"                       }
 
+# To make C-Space in emacs work
+  - { key: Space,    mods: Control, chars: "\x00"                        }
