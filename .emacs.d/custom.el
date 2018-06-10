@@ -18,7 +18,7 @@
  '(mu4e-view-show-images t)
  '(package-selected-packages
    (quote
-    (zenburn-theme highlight-indentation elscreen multi-term yaml-mode flycheck yasnippet auto-complete)))
+    (evil zenburn-theme highlight-indentation elscreen multi-term yaml-mode flycheck yasnippet auto-complete)))
  '(tool-bar-mode nil)
  '(tramp-terminal-type "dumb")
  '(vc-annotate-background "#2B2B2B")

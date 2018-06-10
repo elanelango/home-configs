@@ -34,6 +34,9 @@
 ;; (load-user-file "python-stuff.el")
 
 
+;; evil mode
+(require 'evil)
+(evil-mode 1)
 
 ;;auto-complete
 (require 'auto-complete-config)
