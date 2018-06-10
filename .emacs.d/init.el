@@ -35,8 +35,23 @@
 
 
 ;; evil mode
+;; Make C-u to scroll up
+(setq evil-want-C-u-scroll t)
 (require 'evil)
+
+;;Exit insert mode by pressing j and then j quickly
+(setq key-chord-two-keys-delay 0.5)
+(key-chord-define evil-insert-state-map "jj" 'evil-normal-state)
+(key-chord-mode 1)
+
 (evil-mode 1)
+
+;; powerline
+(require 'powerline)
+(powerline-default-theme)
+
+;; magit
+(global-set-key (kbd "C-x g") 'magit-status)
 
 ;;auto-complete
 (require 'auto-complete-config)
