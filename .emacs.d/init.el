@@ -19,17 +19,21 @@
   "Load a file in current user's configuration directory"
   (load-file (expand-file-name file user-init-dir)))
 
-(load-user-file "elget-stuff.el")
-(load-user-file "emacs-stuff.el")
-(load-user-file "term-stuff.el")
-(load-user-file "elscreen-stuff.el")
-;; (load-user-file "python-stuff.el")
 
+(load-user-file "emacs-stuff.el")
 
 ;; Install packages
 (unless package-archive-contents
   (package-refresh-contents))
 (package-install-selected-packages)
+
+
+(load-user-file "elget-stuff.el")
+(load-user-file "term-stuff.el")
+(load-user-file "elscreen-stuff.el")
+;; (load-user-file "python-stuff.el")
+
+
 
 ;;auto-complete
 (require 'auto-complete-config)
