@@ -36,7 +36,6 @@
 
 ;; evil mode
 ;; Make C-u to scroll up
-(setq evil-want-C-u-scroll t)
 (require 'evil)
 
 ;;Exit insert mode by pressing j and then j quickly

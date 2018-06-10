@@ -11,6 +11,7 @@
  '(custom-safe-themes
    (quote
     ("190a9882bef28d7e944aa610aa68fe1ee34ecea6127239178c7ac848754992df" default)))
+ '(evil-want-C-u-scroll t)
  '(fci-rule-color "#383838")
  '(menu-bar-mode nil)
  '(mu4e-change-filenames-when-moving t)
