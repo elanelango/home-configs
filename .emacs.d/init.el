@@ -25,6 +25,12 @@
 (load-user-file "elscreen-stuff.el")
 ;; (load-user-file "python-stuff.el")
 
+
+;; Install packages
+(unless package-archive-contents
+  (package-refresh-contents))
+(package-install-selected-packages)
+
 ;;auto-complete
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-1.5.1/dict/")
