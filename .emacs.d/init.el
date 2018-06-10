@@ -48,7 +48,7 @@
 
 ;; powerline
 (require 'powerline)
-(powerline-default-theme)
+(powerline-center-evil-theme)
 
 ;; magit
 (global-set-key (kbd "C-x g") 'magit-status)
