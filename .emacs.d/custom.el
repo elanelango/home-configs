@@ -11,7 +11,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (magit key-chord powerline evil zenburn-theme highlight-indentation elscreen multi-term yaml-mode flycheck yasnippet auto-complete)))
+    (web-mode magit key-chord powerline evil zenburn-theme highlight-indentation elscreen multi-term yaml-mode flycheck yasnippet auto-complete)))
  '(tool-bar-mode nil)
  '(tramp-terminal-type "dumb"))
 (custom-set-faces
