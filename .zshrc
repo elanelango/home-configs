@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-export PATH=/opt/local/bin:/opt/local/sbin:$HOME/.cargo/bin:$HOME/android/platform-tools:$PATH
+export PATH=/opt/local/bin:/opt/local/sbin:$HOME/bin:$HOME/.cargo/bin:$HOME/android/platform-tools:$PATH
 
 export VISUAL=nvim
 export EDITOR=nvim
