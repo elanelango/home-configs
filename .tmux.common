@@ -3,6 +3,9 @@ set -g default-terminal "screen-256color"
 
 set -g default-shell "/bin/zsh"
 
+# Disable auto renaming of window
+set-option -g allow-rename off
+
 # Needed to display the cursor in emacs inside a nested tmux session
 set -ag terminal-overrides ',screen*:cvvis=\E[34l\E[?25h'
 
